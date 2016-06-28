@@ -1,0 +1,53 @@
+.game-result {
+
+	font-family: 'Lobster', cursive;
+	text-align : center;
+	
+	.result {
+		
+		font-size: 9em;
+		list-style: none;
+		margin: 0;
+	}
+	.cover {
+	    top: 50%;
+	    position: absolute;
+	    width: 100%;
+	    left: 0;
+	    height: 540px;
+	    margin-top: -300px;
+	}
+
+	.launch-button {
+
+	    background-color: #4dd652;
+	    border-bottom-width: 8px;
+	    border-color: #39b13e;
+	    border-radius: 300px;
+	    color: #FFF;
+	    font-family: 'Lobster', cursive;
+	    font-size: 4em;
+	    line-height: 300px;
+	    width: 300px;
+	    height: 300px;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+		margin-left: -150px;
+		margin-top: -150px;
+	}
+}
+
+.bg {
+
+	background: url('/images/bg.png');
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.05;
+
+}
+
+.hot {
+
+}

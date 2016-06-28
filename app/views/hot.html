@@ -1,0 +1,8 @@
+<div class="hot">
+  <div class="game-result">
+    <ul class="cover">
+      <li ng-repeat="(key,val) in vm.result track by $index" class="result zoomIn" data-wow-duration="0.8s" data-wow-delay="{{1+$index}}s" ng-class="{'wow':!vm.showButton}" ng-bind-html="val"></li>
+    </ul>
+    <a class="btn btn-default launch-button" ng-click="vm.start()" ng-show="vm.showButton"><span class="glyphicon glyphicon-repeat"></span></a>
+  </div>
+</div>
